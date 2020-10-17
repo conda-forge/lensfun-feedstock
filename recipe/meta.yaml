@@ -10,7 +10,7 @@ source:
   sha256: 82c29c833c1604c48ca3ab8a35e86b7189b8effac1b1476095c0529afb702808
 
 build:
-  number: 1
+  number: 2
   skip: True  # [win]
   run_exports:
     - {{ pin_subpackage('lensfun', max_pin='x.x.x') }}
@@ -27,7 +27,6 @@ requirements:
     - glib
     - libpng
   run:
-    - glib
     - libpng
 
 test:
