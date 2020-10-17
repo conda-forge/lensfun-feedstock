@@ -27,7 +27,6 @@ requirements:
     - glib
     - libpng
   run:
-    - glib
     - libpng
 
 test:
